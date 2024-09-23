@@ -1,10 +1,10 @@
-const express = require('express');
-const dotenv = require('dotenv');
-const cors = require('cors');
-const connect = require('./src/db/connect.js');
-const cookieParser = require('cookie-parser');
-const fs = require('fs');
-const errorHandler = require('./src/helpers/errorhandler.js');
+import express from 'express';
+import dotenv from 'dotenv';
+import cors from 'cors';
+import connect from './src/db/connect.js';
+import cookieParser from 'cookie-parser';
+import fs from 'fs';
+import errorHandler from './src/helpers/errorhandler.js';
 
 dotenv.config();
 
