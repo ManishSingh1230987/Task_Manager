@@ -15,7 +15,7 @@ const app = express();
 // middleware
 app.use(
   cors({
-    origin: 'https://task-manager-eight-liart-77.vercel.app/', // Your Vercel app URL without trailing slash
+    origin: 'https://task-manager-eight-liart-77.vercel.app', // Your Vercel app URL without trailing slash
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed methods
     credentials: true 
   })
